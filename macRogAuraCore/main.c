@@ -273,7 +273,7 @@ void usage() {
     printf("macRogAuraCore - RGB keyboard control for Asus ROG laptops\n");
     printf("(c) 2020 black.dragon74 aka Nick\n\n");
     printf("Usage:\n");
-    printf("   rogauracore COMMAND ARGUMENTS\n\n");
+    printf("   macRogAuraCore COMMAND ARGUMENTS\n\n");
     printf("COMMAND should be one of:\n");
     for (int i = 0; i < NUM_FUNCTION_RECORDS; ++i) {
         printf("   %s\n", FUNCTION_RECORDS[i].szName);

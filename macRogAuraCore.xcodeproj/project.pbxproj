@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		018B58CA24A9ECDC00ECB9C8 /* macRogAuraCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macRogAuraCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B58CD24A9ECDC00ECB9C8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		01A192F124AB42AB00017729 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				018B58CD24A9ECDC00ECB9C8 /* main.c */,
+				01A192F124AB42AB00017729 /* README.md */,
 			);
 			path = macRogAuraCore;
 			sourceTree = "<group>";
