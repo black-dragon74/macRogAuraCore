@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0176196524C78743007D4278 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = install.sh; sourceTree = "<group>"; };
 		018B58CA24A9ECDC00ECB9C8 /* macRogAuraCore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macRogAuraCore; sourceTree = BUILT_PRODUCTS_DIR; };
 		018B58CD24A9ECDC00ECB9C8 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		01A192F124AB42AB00017729 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		018B58C124A9ECDC00ECB9C8 = {
 			isa = PBXGroup;
 			children = (
+				0176196524C78743007D4278 /* install.sh */,
 				01A192F124AB42AB00017729 /* README.md */,
 				018B58CC24A9ECDC00ECB9C8 /* macRogAuraCore */,
 				018B58CB24A9ECDC00ECB9C8 /* Products */,
