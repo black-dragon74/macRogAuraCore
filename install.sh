@@ -8,6 +8,9 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
+# Create the directory if not present already
+if [[ -d /usr/local/bin ]]; then :; else mkdir -p /usr/local/bin; fi
+
 echo "Installing macRogAuraCore..."
 
 rm /usr/local/bin/macRogAuraCore 2>/dev/null
