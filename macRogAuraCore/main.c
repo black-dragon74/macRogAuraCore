@@ -476,7 +476,7 @@ static int get_string_property(IOHIDDeviceRef device, CFStringRef prop, wchar_t 
 
 // Vendor specific constants
 const uint16_t ASUS_VENDOR_ID = 0x0b05;
-const uint16_t ASUS_PRODUCT_IDS[] = { 0x1854, 0x1869, 0x1866, 0x19b6 };
+const uint16_t ASUS_PRODUCT_IDS[] = { 0x1854, 0x1869, 0x1866, 0x19b6, 0x1932 };
 const int NUM_ASUS_PRODUCTS = (int)(sizeof(ASUS_PRODUCT_IDS) / sizeof(ASUS_PRODUCT_IDS[0]));
 
 int handleUsb(Messages *pMessages) {
